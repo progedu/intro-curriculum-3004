@@ -6,6 +6,12 @@ function add(numbers) {
     }
     return result;
 }
+
+function multi(numbers){
+    return numbers.reduce((a, b) => {return a * b});
+}
+
 module.exports = {
-    add: add
+    add: add,
+    multi: multi
 };
