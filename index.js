@@ -15,7 +15,15 @@ function multi(numbers) {
     return result;
 }
 
+function minus(numbers) {
+    let result = 0;
+    for (let num of numbers) {
+        result = result - num;
+    }
+}
+
 module.exports = {
     add : add,
-    multi : multi
+    multi : multi,
+    minus : minus
 };
