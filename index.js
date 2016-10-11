@@ -7,5 +7,5 @@ function multi(numbers) {
     return result;
 }
 module.exports = {
-    kake: multi
+    multi: multi
 };
