@@ -6,6 +6,17 @@ function add(numbers) {
     }
     return result;
 }
+
+function malti(numbers) {
+    let result = 1;
+    for( let num of numbers) {
+        result *= num;
+    }
+    return result;
+}
 module.exports = {
-    add: add
-};
+    add   : add,
+    malti : malti
+}
+
+
