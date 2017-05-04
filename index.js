@@ -6,6 +6,12 @@ function add(numbers) {
     }
     return result;
 }
+function multi(numbers) {
+    if(numbers.length === 0) return 1;
+    let number = numbers.shift(); 
+    return number * multi(numbers);
+}
 module.exports = {
-    add: add
+    add: add,
+    multi: multi
 };
