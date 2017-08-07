@@ -6,6 +6,15 @@ function add(numbers) {
     }
     return result;
 }
+
+function multi(numbers) {
+    const m = function (x, y) {
+        return x * y;
+    };
+    return numbers.reduce(m, 1);
+}
+
 module.exports = {
-    add: add
+    add: add,
+    multi: multi
 };
