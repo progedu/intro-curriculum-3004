@@ -1,11 +1,19 @@
 {
-  "name": "sum",
-  "version": "2.0.0",
-  "description": "",
+  "name": "intro-cirriculum-3004",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krkkng/intro-curriculum-3004.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krkkng/intro-curriculum-3004/issues"
+  },
+  "homepage": "https://github.com/krkkng/intro-curriculum-3004#readme",
+  "description": ""
 }
