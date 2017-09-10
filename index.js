@@ -6,6 +6,16 @@ function add(numbers) {
     }
     return result;
 }
+
+function multi(numbers) {
+    let result = 1;
+    for (let num of numbers) {
+        result *= num;
+    }
+    return result;
+}
+//オブジェクト追加時の , 付け忘れは注意
 module.exports = {
-    add: add
+    add: add,
+    multi : multi
 };
