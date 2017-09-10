@@ -9,3 +9,14 @@ function add(numbers) {
 module.exports = {
     add: add
 };
+
+function multi(numbers) {
+    let result = 0;
+    for (let num of numbers) {
+        result = result * num;
+    }
+    return result;
+}
+module.exports = {
+    multi: multi
+};
