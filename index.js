@@ -6,6 +6,19 @@ function add(numbers) {
     }
     return result;
 }
+function multi(numbers){
+    let result = 0;
+    let cnt = 0;
+    for(let num of numbers){
+        if(cnt == 0){
+            result = num;
+            cnt = 1;
+        }
+        result = result * num;
+    }
+    return result;
+}
 module.exports = {
-    add: add
+    add: add,
+    multi:multi
 };
