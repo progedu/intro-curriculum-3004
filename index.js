@@ -1,4 +1,5 @@
 'use strict';
+
 function add(numbers) {
     let result = 0;
     for (let num of numbers) {
@@ -6,6 +7,16 @@ function add(numbers) {
     }
     return result;
 }
+
+function multi(nums) {
+    let ans = 1;
+    for (let num of nums) {
+        ans *= num;
+    }
+    return ans;
+}
+
 module.exports = {
-    add: add
+    add: add,
+    multi: multi
 };
