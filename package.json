@@ -1,11 +1,19 @@
 {
   "name": "sum",
   "version": "2.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torunekonohito/intro-curriculum-3004.git"
+  },
+  "bugs": {
+    "url": "https://github.com/torunekonohito/intro-curriculum-3004/issues"
+  },
+  "homepage": "https://github.com/torunekonohito/intro-curriculum-3004#readme",
+  "description": ""
 }
