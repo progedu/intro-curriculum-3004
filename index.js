@@ -6,6 +6,20 @@ function add(numbers) {
     }
     return result;
 }
+
+function multi(numbers) {
+    let result = 0
+    for (let num of numbers) {
+        if (result === 0) {
+            result = num;
+        } else {
+        result = result * num;
+        }
+    }
+    return result;
+}
+
 module.exports = {
-    add: add
+    add: add,
+    multi: multi
 };
