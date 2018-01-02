@@ -12,11 +12,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d lib",
-    "exec": "babel-node lib/index.js"
+    "exec": "babel-node lib/index.js",
+    "postinstall": "postinstall-build lib"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "postinstall-build": "^5.0.1"
   }
 }
