@@ -2,10 +2,24 @@
   "name": "sum",
   "version": "2.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
   },
-  "author": "",
-  "license": "ISC"
+  "author": "mk",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "exec": "babel-node lib/index.js",
+    "postinstall": "postinstall-build lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "postinstall-build": "^5.0.1"
+  }
 }
