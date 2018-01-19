@@ -16,7 +16,16 @@ function multi(numbers) {
     return result;
 }
 
+function geo(numbers) {
+    let result = 1 ;
+    for(let num of numbers) {
+        result = result * num * num;
+    }
+    return result;
+}
+
 module.exports = {
     add: add,
-    multi : multi
+    multi : multi ,
+    geo : geo
 };
