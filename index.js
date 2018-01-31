@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 function add(numbers) {
     let result = 0;
     for (let num of numbers) {
