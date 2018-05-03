@@ -7,7 +7,7 @@ function add(numbers) { // 引数numbersは配列を受け取る
     return result;
 }
 
-function add(numbers) {
+function multi(numbers) {
     let result = 1;
     for (let num of numbers) {
         result = result * num;
