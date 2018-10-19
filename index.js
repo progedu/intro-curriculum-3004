@@ -1,16 +1,12 @@
 'use strict';
 function add(numbers) {
-    let result = 0;
-    for (let num of numbers) {
-        result = result + num;
-    }
+    let result;
+    result = numbers.reduce((a, b) => a + b);
     return result;
 }
 function multi(numbers) {
-    let result = 1;
-    for (let num of numbers) {
-        result = result * num;
-    }
+    let result;
+    result = numbers.reduce((a, b) => a * b);
     return result;
 }
 module.exports = {
