@@ -11,8 +11,9 @@ function add(numbers) {
 function multi(numbers) {
   let result = 1;
   for (let num of numbers) {
-    result = request * num;
+    result *= num;
   }
+  return result;
 }
 
 module.exports = {
