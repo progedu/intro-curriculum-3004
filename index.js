@@ -1,8 +1,8 @@
 'use strict';
 function add(numbers) {
-    let result = 0;
+    let result = 1;
     for (let num of numbers) {
-        result = result + num;
+        result = result * num;
     }
     return result;
 }
