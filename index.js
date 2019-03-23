@@ -6,6 +6,14 @@ function add(numbers) {
     }
     return result;
 }
+function multi(numbers) {
+    return numbers.reduce((pre,cur)=>{
+        return pre * cur;
+    },1)
+}
+
+
 module.exports = {
-    add: add
+    add: add,
+    multi, multi
 };
