@@ -8,7 +8,7 @@ function add(numbers) {
     if (typeof num != "number"){
       return errorMessage + "  : "　+ num;
     }
-    //整数以外の入力ができないように、小数点とマイナスの記号が含まれていた場合にエラーを返す
+    //整数以外の入力ができないように、小数点が含まれていた場合にエラーを返す
     if (num.toString().indexOf(".") != -1){
       return errorMessage + "  : "　+ num;
     }
@@ -26,7 +26,7 @@ function multi(numbers) {
     if (typeof num != "number"){
       return errorMessage + "  : "　+ num;
     }
-    //整数以外の入力ができないように、小数点とマイナスの記号が含まれていた場合にエラーを返す
+    //整数以外の入力ができないように、小数点が含まれていた場合にエラーを返す
     if (num.toString().indexOf(".") != -1){
       return errorMessage + "  : "　+ num;
     }
