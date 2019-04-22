@@ -9,7 +9,7 @@ function add(numbers) {
       return errorMessage + "  : "　+ num;
     }
     //整数以外の入力ができないように、小数点とマイナスの記号が含まれていた場合にエラーを返す
-    if (num.toString().indexOf(".") != -1 || num.toString().indexOf("-") != -1 ){
+    if (num.toString().indexOf(".") != -1){
       return errorMessage + "  : "　+ num;
     }
     result = result + num;
@@ -27,7 +27,7 @@ function multi(numbers) {
       return errorMessage + "  : "　+ num;
     }
     //整数以外の入力ができないように、小数点とマイナスの記号が含まれていた場合にエラーを返す
-    if (num.toString().indexOf(".") != -1 || num.toString().indexOf("-") != -1 ){
+    if (num.toString().indexOf(".") != -1){
       return errorMessage + "  : "　+ num;
     }
     result = result * num;
