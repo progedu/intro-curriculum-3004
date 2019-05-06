@@ -1,11 +1,19 @@
 'use strict';
-function add(numbers) {
+function add(data) {
     let result = 0;
-    for (let num of numbers) {
-        result = result + num;
+    for (let value of data) {
+        result = result + value;
+    }
+    return result;
+}
+function multi(data) {
+    let result = 1;
+    for (let value of data) {
+        result = result * value;
     }
     return result;
 }
 module.exports = {
-    add: add
+    add: add,
+    multi: multi
 };
