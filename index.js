@@ -6,7 +6,6 @@ function add(numbers) {
   }
   return result;
 }
-//module.exports = { add }; //最後にまとめてかく
 
 function multi(numbers) {
   let result = 1;
