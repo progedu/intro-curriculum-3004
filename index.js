@@ -16,5 +16,5 @@ function multi(numbers){
 }
 module.exports = { 
   add:add ,
-  multi:multi
+  "multi":multi
 };
