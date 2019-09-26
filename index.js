@@ -6,9 +6,6 @@ function add(numbers) {
   }
   return result;
 }
-<<<<<<< Updated upstream
-module.exports = { add };
-=======
 
 function multi(numbers) {
     let result = 1;
@@ -22,4 +19,3 @@ module.exports = {
     add : add,
     multi : multi
 };
->>>>>>> Stashed changes
