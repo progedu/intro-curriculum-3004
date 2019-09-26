@@ -6,4 +6,20 @@ function add(numbers) {
   }
   return result;
 }
+<<<<<<< Updated upstream
 module.exports = { add };
+=======
+
+function multi(numbers) {
+    let result = 1;
+    for (let num of numbers) {
+        result = result * num;
+    }
+    return result;
+}
+
+module.exports = {
+    add : add,
+    multi : multi
+};
+>>>>>>> Stashed changes
