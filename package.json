@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Hitoshi Tada <hitoshitada@gaia.eonet.ne.jp>",
+  "license": "ISC",
+  "repository": "git@github.com:hitoshitada/intro-curriculum-3004",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004"
+  }
 }
