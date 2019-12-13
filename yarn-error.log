@@ -1,0 +1,46 @@
+Arguments: 
+  /home/vagrant/.nvm/versions/node/v10.14.2/bin/node /home/vagrant/.yarn/bin/yarn.js add curriculum-3004
+
+PATH: 
+  /home/vagrant/.yarn/bin:/home/vagrant/.config/yarn/global/node_modules/.bin:/home/vagrant/.nvm/versions/node/v10.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  10.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/curriculum-3004: Not found
+      at Request.params.callback [as _callback] (/home/vagrant/.yarn/lib/cli.js:66927:18)
+      at Request.self.callback (/home/vagrant/.yarn/lib/cli.js:140586:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/home/vagrant/.yarn/lib/cli.js:141558:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/home/vagrant/.yarn/lib/cli.js:141480:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1094:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+    "name": "sum",
+    "version": "2.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
