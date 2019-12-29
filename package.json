@@ -1,11 +1,15 @@
 {
-  "name": "sum",
+  "name": "multi",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Tonachin <noriot2@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:NorioTonami/intro-curriculum-3004.git",
+  "dependencies": {
+    "sum": "../sum"
+  }
 }
