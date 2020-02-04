@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "ddkkmf <matsubara_dan@waku-2.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "sum": "../sum"
+  },
+  "repository": "git@github.com:ddkkmf/intro-curriculum-3004.git"
 }
