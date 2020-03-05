@@ -6,7 +6,7 @@ function add(numbers) {
     }
     return result;
 }
-function multi(numbres){
+function multi(numbers){
     let result = 1;
     for(let num of numbers){
         result = result * num;
