@@ -14,6 +14,8 @@ function multi(num) {
     for (let nums of num) {
         result = result * nums;
     }
+    
+    return result;
 }
 
 module.exports = {
