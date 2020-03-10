@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Your Name <you@example.com>",
+  "license": "ISC",
+  "repository": "git@github.com:lirlia/intro-curriculum-3004.git"
 }
