@@ -6,6 +6,7 @@ function add(numbers) {
     }
     return result;
 }
+
 function multi(numbers){
     let result = 1;
     for (let num of numbers){
@@ -16,6 +17,6 @@ function multi(numbers){
 }
 
 module.exports = {
-    add : add,
-    multi : multi
+    add,
+    multi 
 };
