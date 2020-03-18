@@ -7,3 +7,12 @@ function add(numbers) {
   return result;
 }
 module.exports = { add };
+
+function multi(n) {
+  let result = 0;
+  for (let number of n) {
+    result = result * number;
+  }
+  return result;
+}
+module.exports = { multi };
