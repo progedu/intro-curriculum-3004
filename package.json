@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Masahiro Miyakami <cmcheese1019@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:cmcheese/intro-curriculum-3004.git",
+  "dependencies": {}
 }
