@@ -1,11 +1,11 @@
 {
   "name": "sum",
-  "version": "2.0.0",
-  "description": "",
+  "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "repository": "git@github.com:wozuwarudo/intro-curriculum-3004.git",
+  "author": "Jinta Fujino <fjn815@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004"
+  }
 }
