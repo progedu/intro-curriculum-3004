@@ -1,11 +1,11 @@
 {
-  "name": "sum",
-  "version": "2.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "sum": "../sum"
   },
-  "author": "",
-  "license": "ISC"
+  "name": "intro-curriculum-3004",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gha13013/intro-curriculum-3004.git",
+  "author": "G <gaoyama@gmail.com>",
+  "license": "MIT"
 }
