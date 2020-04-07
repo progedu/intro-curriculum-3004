@@ -6,4 +6,6 @@ function add(numbers) {
   }
   return result;
 }
-module.exports = { add };
+
+const multi = numbers => numbers.reduce((a, b) => a * b);
+module.exports = { add, multi };
