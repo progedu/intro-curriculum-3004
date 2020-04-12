@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Aozora Okada <bluesky125osmkk@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:paoscience/intro-curriculum-3004.git"
 }
