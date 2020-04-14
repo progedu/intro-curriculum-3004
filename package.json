@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Tatsuya_Murayama <dun0337@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004"
+  },
+  "repository": "git@github.com:TatsuyaMurayama/intro-curriculum-3004.git"
 }
