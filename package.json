@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Nozomi Sakurai <nozomi.samurai1118@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004"
+  },
+  "repository": "git@github.com:nozomisa/intro-curriculum-3004.git"
 }
