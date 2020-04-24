@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "yuma <t.yuma2618@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:yuma2000/intro-curriculum-3004",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004"
+  }
 }
