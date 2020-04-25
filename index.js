@@ -6,4 +6,17 @@ function add(numbers) {
   }
   return result;
 }
-module.exports = { add };
+//module.exports = { add };
+
+
+
+function multi(numbers){
+  let result = 1;
+  for (let number of numbers){ //ofでなくinだとインデックス番号がnumberに入る
+    //console.log (number);
+    result *= number;
+  }
+  
+  return result;
+}
+module.exports = {add,multi};
