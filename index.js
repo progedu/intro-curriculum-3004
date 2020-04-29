@@ -15,6 +15,6 @@ function multi(numbers){
     }
     return result
 }
-module.export = {
+module.exports = {
     multi : multi
 }
