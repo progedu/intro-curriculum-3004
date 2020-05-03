@@ -1,11 +1,12 @@
 {
-  "name": "sum",
+  "name": "sum-multi",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "IKDrocket <yusuke1128rocket@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:IKDrocket/intro-curriculum-3004.git"
 }
