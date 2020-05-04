@@ -6,4 +6,12 @@ function add(numbers) {
   }
   return result;
 }
-module.exports = { add };
+
+function multi(value) {
+  let result = 1;
+  for (let val of value) {
+    result = result * val;
+  }
+  return result;
+}
+module.exports = { add, multi };
