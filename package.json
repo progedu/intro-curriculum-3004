@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "cube220284 <cube_ys2002@yahoo.co.jp>",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": "git@github.com:cube220284/intro-curriculum-3004.git"
 }
