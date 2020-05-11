@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Nanashi-i <winxp-pen4@hotmail.co.jp>",
+  "license": "ISC",
+  "dependencies": {
+    "sum": "^0.1.4"
+  },
+  "repository": "git@github.com:Nanashi-i/intro-curriculum-3004"
 }
