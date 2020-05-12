@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kenta Miyamoto <miyaken.blog@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:miyaken1003/intro-curriculum-3004",
+  "dependencies": {}
 }
