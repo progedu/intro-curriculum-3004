@@ -12,4 +12,4 @@ function multi(numbers) {
     result = result + num;
   }
 }
-module.exports = { add, nulti };
+module.exports = { add, multi };
