@@ -7,3 +7,13 @@ function add(numbers) {
   return result;
 }
 module.exports = { add };
+
+//練習問題
+function multi(numbers){
+  let result = 0;
+  for (let num of numbers){
+      result = result * num;
+  }
+  return result;
+}
+module.exports = { multi };
