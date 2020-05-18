@@ -1,11 +1,16 @@
 {
   "name": "sum",
-  "version": "2.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": " ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": " ",
+  "license": "MIT",
+  "repository": " ",
+  "private": null,
+  "dependencies": {
+    "sum": "/home/vagrant/workspace/sum"
+  }
 }
