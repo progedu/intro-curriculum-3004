@@ -8,11 +8,11 @@ function add(numbers) {
 }
 
 function  multi(numbers) {
-    let result = 1
-    for (let num of numbers) {
+    let result = 1;
+    for  (let num of numbers) {
         result = result  * num;
     }
     return  result;
 }
-module.exports = { add, multi
-};
+
+module.exports = { add, multi };
