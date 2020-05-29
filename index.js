@@ -6,7 +6,6 @@ function add(numbers) {
   }
   return result;
 }
-<<<<<<< HEAD
 
 function multi(numbers) {
     let result = 1;
@@ -20,6 +19,3 @@ module.exports = {
     add: add,
     multi: multi
 };
-=======
-module.exports = { add };
->>>>>>> 51b1a284dac5fc8aae308e8c7456515f72c127fd
