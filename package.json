@@ -1,12 +1,11 @@
 {
-  "name": "multi",
+  "name": "sum",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "jonah <jonahega@gmail.com>",
-  "license": "ISC",
-  "repository": "git@github.com:JonahEgashira/intro-curriculum-3004.git"
-}
+  "author": "",
+  "license": "ISC"
+}}
