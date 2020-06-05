@@ -1,9 +1,17 @@
 'use strict';
-function add(numbers) {
-  let result = 0;
-  for (let num of numbers) {
-    result = result + num;
-  }
-  return result;
+const add = numbers => {
+    let result = 0;
+    numbers.forEach(number => {
+        result += number;
+    });
+    return result;
 }
-module.exports = { add };
+
+const multi = numbers => {
+    let result = 1;
+    numbers.forEach(number => {
+        result *= number;
+    });
+    return result;
+}
+module.exports = { add, multi };
