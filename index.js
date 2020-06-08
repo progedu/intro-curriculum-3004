@@ -12,9 +12,9 @@ function multi(numbers) {
   for (let num of numbers) {
     let result = result * num;
   }
+  return result;
 }
-console.log(multi([4, 5, 6]));
+
 module.exports = { 
-  add: add,
-  multi: multi
+  add, multi
  };
