@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "SakiArai <saki.arai.oden@gmail.com>",
-  "license": "ISC",
+  "author": "",
+  "license": "MIT",
   "repository": "git@github.com:Burning-Takenoko/intro-curriculum-3004.git"
 }
