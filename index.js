@@ -6,4 +6,4 @@ function add(numbers) {
   }
   return result;
 }
-module.exports = { add };
+module.exports = { multi };
