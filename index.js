@@ -16,3 +16,7 @@ function multi(numbers) {
 }
 
 module.exports = { add, multi };
+//module.exports = { add };
+//module.exports = { multi };
+//という書き方をしていたら、addモジュールを正常に呼び出せなかったので、
+//モジュールのエクスポートの表記は上記のように1行にまとめて表記する。
