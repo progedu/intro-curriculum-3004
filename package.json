@@ -1,11 +1,12 @@
 {
-  "name": "sum",
+  "name": "intro-curriculum-3004",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "synapse-official <synapse4989@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:synapse-official/intro-curriculum-3004.git"
 }
