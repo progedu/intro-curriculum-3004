@@ -12,5 +12,8 @@ function multi(numbers){
     result *= num;
   }
 }
-module.exports = {multi};
-module.exports = { add };
+
+module.exports = {
+  add:add,
+  multi:multi,
+};
