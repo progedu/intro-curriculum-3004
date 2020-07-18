@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "shocci1214 <shocci1214@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:shocci1214/intro-curriculum-3004.git",
+  "dependencies": {
+    "sum": "../sum"
+  }
 }
