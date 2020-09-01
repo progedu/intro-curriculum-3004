@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Yuugo Komada <yuugo_19n1103976@nnn.ed,jp>",
+  "license": "ISC",
+  "repository": "git@github.com:k-yugo/intro-curriculum-3004.git",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004"
+  }
 }
