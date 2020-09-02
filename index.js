@@ -8,7 +8,7 @@ function add(numbers) {
 }
 
 function multi(numbers) {
-  let result = 0;
+  let result = 1; // 0だと掛け算全て0になる
   for (let num of numbers) {
     result = result * num;
   }
