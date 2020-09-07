@@ -12,6 +12,7 @@ function multi(numbers) {
   for (let num of numbers) {
     result *= num;
   }
+  return result;
 }
 
 module.exports = { add, multi };
