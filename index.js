@@ -6,4 +6,8 @@ function add(numbers) {
   }
   return result;
 }
-module.exports = { add };
+
+function multi(numbers){
+  return numbers.reduce((acc, cur) => acc * cur);
+}
+module.exports = { add, multi };
