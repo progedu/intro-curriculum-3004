@@ -15,7 +15,16 @@ function multi(numbers) {
   return result;
 }
 
+function intjoin(numbers) {
+  let result = 0;
+  for (let num of numbers) {
+    result = result * 10 + num;
+  }
+  return result;
+}
+
 module.exports = {
 	add: add,
-	multi: multi
+  multi: multi,
+  intjoin: intjoin
 };
