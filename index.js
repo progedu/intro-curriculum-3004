@@ -24,7 +24,7 @@ function intjoin(numbers) {
 }
 
 module.exports = {
-	add: add,
+  add: add,
   multi: multi,
   intjoin: intjoin
 };
