@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "natumenonomi <nonegemu3e@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004"
+  },
+  "repository": "git@github.com:natumenonomi/intro-curriculum-3004.git"
 }
