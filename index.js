@@ -1,11 +1,20 @@
-'use strict';
-function add(numbers) {
+'use strinct';
+function add(numbers){
     let result = 0;
-    for (let num of numbers) {
+    for (let num of numbers){
         result = result + num;
     }
     return result;
 }
+function multi(numbers){
+    let result = 0;
+    for (let num of numbers){
+        result = result * num;
+    }
+    return result;
+}
+gunction 
 module.exports = {
-    add: add
+    add : add,
+    multi : multi
 };
