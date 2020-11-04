@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Reon Akiyama <xstory.aki0730.sakks@gmail.com>",
+  "license": "ISC",
+  "repository": "git@github.com:xyriustory/intro-curriculum-3004.git"
 }
