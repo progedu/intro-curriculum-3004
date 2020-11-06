@@ -1,11 +1,8 @@
 {
-  "name": "sum",
-  "version": "2.0.0",
-  "description": "",
+  "name": "multi",
+  "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  "repository": "git@github.com:ta-nu-ki-3/intro-curriculum-3004.git",
+  "author": "ta-nu-ki3 <unplugged61662@gmail.com>",
+  "license": "MIT"
 }
