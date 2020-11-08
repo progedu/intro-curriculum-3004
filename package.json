@@ -6,6 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "AkiGlass <Drkgnj@outlook.jp>",
+  "license": "ISC",
+  "dependencies": {
+    "sum": "../intro-curriculum-3004",
+    "sum-app": "../sum-app"
+  },
+  "repository": "git@github.com:akiglass/intro-curriculum-3004.git"
 }
