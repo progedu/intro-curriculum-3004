@@ -8,7 +8,7 @@ function add(numbers) {
   return result;
 }
 
-function miltu(numbers) {
+function multi(numbers) {
   let result = 1;
   for (let num of numbers) {
     result = result * num;
@@ -16,4 +16,4 @@ function miltu(numbers) {
   return result;
 }
 
-module.exports = { add };
+module.exports = { add, multi };
