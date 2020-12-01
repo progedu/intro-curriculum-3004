@@ -7,5 +7,5 @@ function add(numbers) {
     return result;
 }
 module.exports = {
-    add: add
+    add, multi
 };
