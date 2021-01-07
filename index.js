@@ -17,4 +17,4 @@ function multi(number) {
   }
   return result;
 }
-module.exports = {multi};
+module.exports = { multi };
