@@ -1,11 +1,12 @@
 {
-  "name": "sum",
-  "version": "2.0.0",
+  "name": "multi",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Tatsuwako <moko5890@gmail.com>",
+  "license": "MIT",
+  "repository": "git@github.com:Tatsuwako/intro-curriculum-3004.git"
 }
