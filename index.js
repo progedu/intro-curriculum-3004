@@ -16,4 +16,3 @@ function multi(numbers) {
 }
 
 module.exports = { add, multi };
-
