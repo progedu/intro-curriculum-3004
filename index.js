@@ -14,6 +14,6 @@ function mult(multi){
   return result;
 }
 module.exports = { 
-  add: add 
+  add: add,
   mult: mult
 };
