@@ -6,4 +6,26 @@ function add(numbers) {
   }
   return result;
 }
-module.exports = { add };
+
+function multi(numbers) {
+  let result = 1;
+    for (let num of numbers) {
+      result = result * num;
+    }
+    return result;
+  }
+
+  /**
+   * 配列のべき乗を計算
+   * @param {Array} numbers 正の整数の配列 
+   * @returns {number}
+   */
+function pow (base ,numbers) {
+  let result = base;
+  for (let num of numbers) {
+      result = result ** num;
+    }
+    return result;
+}
+
+module.exports = { add,multi, pow };
