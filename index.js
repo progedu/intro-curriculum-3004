@@ -8,4 +8,5 @@ function add(numbers) {
 }
 module.exports = {
     add: add
+    multi : multi
 };
